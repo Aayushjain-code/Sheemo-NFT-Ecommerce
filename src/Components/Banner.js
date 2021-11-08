@@ -8,7 +8,7 @@ const Banner = () => {
     return (
       <div>
       <div className='container-fluid' >
-     
+
       <div className="row">
           <div className="col-12">
               <Carousel>
@@ -19,17 +19,17 @@ const Banner = () => {
                           src="https://economictimes.indiatimes.com/thumb/msid-81970886,width-1000,height-500,resizemode-4,imgsize-1042692/nft-non-fungible-token_istock.jpg?from=mdr"
                           alt="First slide"
                       />
-                    
+
                   </Carousel.Item >
 
                   <Carousel.Item  interval={500}>
                       <img
-                          className="rounded mx-auto d-block img-fluid"   
+                          className="rounded mx-auto d-block img-fluid"
                           src="https://d3e3ue3zkv25c8.cloudfront.net/wp-content/uploads/2020/11/non-fungible-tokens-nft-beginners-guide.png"
                           alt="Second slide"
                       />
 
-                      
+
                   </Carousel.Item>
 
                   <Carousel.Item  interval={500}>

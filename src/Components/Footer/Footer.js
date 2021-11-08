@@ -3,7 +3,7 @@ import React from "react";
 import "./Footer.css";
 import { footer } from "react-bootstrap";
 const Footer = () => (
-  <div>
+  <div style={{marginTop:"8rem"}}>
     <footer class=" footer page-footer m-0 p-3">
       <div class="footer-copyright text-center ">
         <div style={{ marginBottom: "0.5rem" }}>

@@ -223,7 +223,7 @@ export const Cart = () => {
               name="All Products"
               amount={totalPrice * 100}
             ></StripeCheckout>
-            {/* <h6 className="text-center" style={{ marginTop: 7 + "px" }}>
+            <h6 className="text-center" style={{ marginTop: 7 + "px" }}>
               OR
             </h6>
             <button
@@ -231,7 +231,7 @@ export const Cart = () => {
               onClick={() => triggerModal()}
             >
               Cash on Delivery
-            </button> */}
+            </button>
           </div>
         </div>
       )}
