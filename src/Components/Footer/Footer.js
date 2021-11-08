@@ -18,7 +18,7 @@ const Footer = () => (
               borderColor: "black"
             }}
           >
-            Sheemo
+            Sheemo...
           </h2>
         </div>
         <span> © 2021 Copyright</span>

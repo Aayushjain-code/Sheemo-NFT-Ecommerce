@@ -25,10 +25,16 @@ export const Navbar = ({ user, totalProducts }) => {
               <p
                 class="navbar-brand"
                 style={{
-                  fontWeight: "800"
+                  fontWeight: "800",
+                  color: "black",
+                  display: "inline-block",
+                  backgroundColor: "white",
+                  padding: "0.2rem",
+                  borderRadius: "0.5rem",
+                  borderColor: "black"
                 }}
               >
-                Sheemo
+                Sheemo...
               </p>
 
               <button
@@ -70,14 +76,21 @@ export const Navbar = ({ user, totalProducts }) => {
         )}
         {user && (
           <>
-            <nav class="navbar navbar-expand-lg navbar-dark white-color">
+            <nav class="navbar navbar-expand-lg navbar-dark white-color"
+            style={{paddingTop:"1.5rem",paddingBottom:"1rem"}}>
               <h5
                 class="navbar-brand"
                 style={{
-                  fontWeight: "800"
+                  fontWeight: "800",
+                  color: "black",
+                  display: "inline-block",
+                  backgroundColor: "white",
+                  padding: "0.3rem",
+                  borderRadius: "0.5rem",
+                  borderColor: "black"
                 }}
               >
-                Sheemo
+                Sheemo...
               </h5>
 
               <button
