@@ -39,8 +39,25 @@ export const Signup = () => {
         })
     }
 
-    return (
-        <div className='container'>
+    return (<div>
+         <div style={{ padding: "2rem", backgroundColor: "#FF007F" }}>
+        <h5
+          class="navbar-brand"
+          style={{
+            textAlign: "center",
+            backgroundColor: "white",
+            fontWeight: "800",
+            padding: "0.5rem",
+            margin: "1.5 rem",
+            borderRadius: "0.5rem",
+            borderColor: "black",
+            borderWidth: "0.2rem"
+          }}
+        >
+          Sheemo
+        </h5>
+      </div>
+      <div className='container'>
             <br></br>
             <br></br>
             <h1>Sign Up</h1>
@@ -73,5 +90,7 @@ export const Signup = () => {
                 <div className='error-msg'>{errorMsg}</div>                
             </>}
         </div>
+    </div>
+       
     )
 }
