@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from "react";
 import { Navbar } from "./Navbar";
-import { Products } from "./Products";
+import { SingleCard } from "./singleCard";
 import { auth, fs } from "../Config/Config";
 
-export const Home = (props) => {
+export const NewHome = (props) => {
   // getting current user uid
   function GetUserUid() {
     const [uid, setUid] = useState(null);
@@ -104,20 +104,9 @@ export const Home = (props) => {
     <div style={{ backgroundColor: "" }}>
       <Navbar user={user} totalProducts={totalProducts} />
       <br></br>
-
-      {products.length > 0 && (
-        <div className="container-fluid">
-          <h1 className="text-center" style={{ fontWeight: 900 }}>
-            Products
-          </h1>
-          <div className="products-box">
-            <Products products={products} addToCart={addToCart} />
-          </div>
-        </div>
-      )}
-      {products.length < 1 && (
-        <div className="container-fluid">Please wait....</div>
-      )}
+      <SingleCard />
+      <SingleCard />
+      <SingleCard />
     </div>
   );
 };

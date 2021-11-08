@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { auth } from "../Config/Config";
 import { useHistory } from "react-router-dom";
-import { Navbar } from "react-bootstrap";
 
 export const Login = () => {
   const history = useHistory();

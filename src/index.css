@@ -51,8 +51,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #FF007F;
-  color: white
+  background-color: #ff007f;
+  color: white;
 }
 
 @media (max-width: 450px) {

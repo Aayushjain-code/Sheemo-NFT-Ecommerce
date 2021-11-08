@@ -16,7 +16,7 @@ export const IndividualProduct = ({ individualProduct, addToCart }) => {
   return (
     <div
       className="product"
-      style={{ borderStyle: "solid", borderWidth: "1px", padding: "0.5rem" }}
+      style={{ borderStyle: "solid", borderWidth: "1px", padding: "1rem" }}
     >
       <div className="product-img" style={{ height: "150px", width: "160px" }}>
         <img
