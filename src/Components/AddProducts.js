@@ -77,7 +77,7 @@ export const AddProducts = () => {
     <div className="container">
       <br></br>
       <br></br>
-      <h1>Add Products</h1>
+      <h1>Add NFT</h1>
       <hr></hr>
       {successMsg && (
         <>
@@ -90,7 +90,7 @@ export const AddProducts = () => {
         className="form-group"
         onSubmit={handleAddProducts}
       >
-        <label>Product Title</label>
+        <label>NFT Title</label>
         <input
           type="text"
           className="form-control"
@@ -99,7 +99,7 @@ export const AddProducts = () => {
           value={title}
         ></input>
         <br></br>
-        <label>Product Description</label>
+        <label>NFT Description</label>
         <input
           type="text"
           className="form-control"
@@ -108,7 +108,7 @@ export const AddProducts = () => {
           value={description}
         ></input>
         <br></br>
-        <label>Product Price</label>
+        <label>NFT Price</label>
         <input
           type="number"
           className="form-control"
@@ -117,7 +117,7 @@ export const AddProducts = () => {
           value={price}
         ></input>
         <br></br>
-        <label>Upload Product Image</label>
+        <label>Upload NFT Image</label>
         <input
           type="file"
           id="file"

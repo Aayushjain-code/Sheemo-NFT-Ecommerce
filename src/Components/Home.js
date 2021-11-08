@@ -108,7 +108,7 @@ export const Home = (props) => {
       {products.length > 0 && (
         <div className="container-fluid">
           <h1 className="text-center" style={{ fontWeight: 900 }}>
-            Products
+            Non Fungible Tokens:
           </h1>
           <div className="products-box">
             <Products products={products} addToCart={addToCart} />
@@ -116,7 +116,9 @@ export const Home = (props) => {
         </div>
       )}
       {products.length < 1 && (
-        <div className="container-fluid">Please wait....</div>
+        <div className="container-fluid">
+          <h1>Please wait....</h1>
+        </div>
       )}
     </div>
   );

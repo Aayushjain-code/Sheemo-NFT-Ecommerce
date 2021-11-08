@@ -57,31 +57,23 @@ export const IndividualProduct = ({ individualProduct, addToCart }) => {
         aria-labelledby="contained-modal-title-vcenter"
         centered
       >
-        <Modal.Header closeButton>
+        <Modal.Header>
           <Modal.Title id="contained-modal-title-vcenter">
-            <h2>{individualProduct.title}</h2>
+            <h2 style={{ fontWeight: "900" }}>{individualProduct.title}</h2>
           </Modal.Title>
         </Modal.Header>
         <Modal.Body>
           <div className="product-big-img">
             <img src={individualProduct.url} alt="product-img" />
           </div>
+
           <div className="product-big-description">
-            {individualProduct.description}
-            <div className="product-big-price">
-              Rupees {individualProduct.price}
-            </div>
+            Description: {individualProduct.description}
+            <div>Rupees: {individualProduct.price}</div>
           </div>
-          <p>
-            <b>Warranty :</b>1 day seller replacement warranty against
-            manufacturing defects
-          </p>
-          <p>
-            <b>Shipping :</b>Dispatched within 2-3 working days
-          </p>
         </Modal.Body>
         <Modal.Footer>
-          <Button variant="secondary" onClick={handleClose}>
+          <Button variant="danger" onClick={handleClose}>
             Close
           </Button>
         </Modal.Footer>

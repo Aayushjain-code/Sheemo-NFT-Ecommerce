@@ -118,7 +118,7 @@ export const Navbar = ({ user, totalProducts }) => {
                           color: "white"
                         }}
                       >
-                        ADD-PRODUCTS
+                        ADD-NFT
                       </Link>
                     </div>
                   </li>

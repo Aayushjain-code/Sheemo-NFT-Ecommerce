@@ -197,7 +197,7 @@ export const Cart = () => {
       <br></br>
       {cartProducts.length > 0 && (
         <div className="container-fluid">
-          <h1 className="text-center">Cart</h1>
+          <h1 className="text-center">NFT Cart</h1>
           <div className="products-box">
             <CartProducts
               cartProducts={cartProducts}
@@ -206,10 +206,10 @@ export const Cart = () => {
             />
           </div>
           <div className="summary-box">
-            <h5>Cart Summary</h5>
+            <h5>NFT Summary</h5>
             <br></br>
             <div>
-              Total No of Products: <span>{totalQty}</span>
+              Total No of NFT: <span>{totalQty}</span>
             </div>
             <div>
               Total Price to Pay: <span>INR {totalPrice}</span>
@@ -223,7 +223,7 @@ export const Cart = () => {
               name="All Products"
               amount={totalPrice * 100}
             ></StripeCheckout>
-            <h6 className="text-center" style={{ marginTop: 7 + "px" }}>
+            {/* <h6 className="text-center" style={{ marginTop: 7 + "px" }}>
               OR
             </h6>
             <button
@@ -231,7 +231,7 @@ export const Cart = () => {
               onClick={() => triggerModal()}
             >
               Cash on Delivery
-            </button>
+            </button> */}
           </div>
         </div>
       )}
